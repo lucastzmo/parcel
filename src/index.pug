@@ -1,0 +1,16 @@
+doctype html
+html(lang="")
+  head
+    link(rel="stylesheet", href="./css/style.scss")
+  body
+    h1 Ola Lucas, html em Pug!
+    table
+      thead
+        th ID
+        th Nome
+      tbody
+        each val in [1, 2, 3, 4, 5]
+          tr
+            td= val
+            td Lucas
+    script(src="index.js")

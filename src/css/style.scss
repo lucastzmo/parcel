@@ -1,0 +1,11 @@
+$cinza: #f2f2f2;
+$cinza-escuro: #333;
+
+body {
+  background: $cinza;
+}
+
+table, td {
+  border: 1px solid $cinza-escuro;
+  padding: 1em 2em;
+}
